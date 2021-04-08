@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+p {
+    margin: 0;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    padding-top: 57px;
+    color: #fff;
+    padding-bottom: 320px;
+}
+header a {
+    color: white;
+}
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu li {
+    margin-right: 40px;
+
+}
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 69px;
+}
+.offer {
+    text-transform: uppercase;
+    margin-top: 216px;
+}
+.offer p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.offer h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    initial-letter: 0.02em;
+}
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #fff;
+    color:  #000;
+}
+.descriphion {
+    display: flex;
+    justify-content: space-between;
+
+}
+.descriphion p {
+    font-family: 'Open Sanse';
+    font-weight: 400;
+    text-align:justify;
+    line-height: 1.62em;
+}
+
+section {
+    padding-top: 113px;
+}
+
+h2 {
+    font-size:  50px;
+    margin-bottom: 58px;
+}
+.left, .right {
+    width: 567px;
+}
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text {
+    font-size: 15px;
+    font-family: 'Open Sens', sans-serif;
+    display: flex;
+    padding: 114px 0;
+}
+.footer-text p {
+    margin-right: 67px;
+}
